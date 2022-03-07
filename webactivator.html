@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<title>CRONO_ DREAMBOX PS4 FW 9.00 V5</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/simple-notify.min.css" />
+<style> 
+    html, body{
+      background: url('img/bg1.png');
+      background-attachment: fixed;
+      margin:auto;
+      font-size:20px;
+      font-weight:lighter;
+      color:#FFFFFF;
+      background-color: #000;
+      background-attachment: fixed;
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+}
+</style><h1 style="margin-top: 17px;">Carregando Payload... Aguade !!!</h1>
+<hr><br><br><br><br><br><br><br><br><br><br><br><h1 style="font-size:30px;">Isso levará um tempo entre 20 e 40 segundos ...</h1>
+<br>
+<a href="https://twitter.com/cronocardoso"><img class="icon" src="img/icon.gif"/></a> 
+<br>
+<div style="opacity: 0">
+<p><i>Italic text</i></p>
+<table>
+<tr>
+<th>H1</th>
+<th>H2</th>
+<th>H3</th>
+</tr>
+<tr>
+<td>text</td>
+<td><input value="text"/></td>
+<td><button>text</button></td>
+</tr>
+</table>
+</div>
+<script>
+function loadScript(path)
+{
+    var xhr = new XMLHttpRequest(path);
+    xhr.open("GET", path, false);
+    xhr.send('');
+    return xhr.responseText;
+}
+
+setTimeout(function(){
+eval.call(window, loadScript('netcat.js')
++loadScript('exploit.js')
++loadScript('malloc.js')
++loadScript('rop2.js')
++loadScript('syscalls.js')
++loadScript('syscalls2.js')
++loadScript('payload.js')
++loadScript('relocator.js')
++loadScript('frontend.js'));
+document.getElementById('q').innerHTML = 'Some other text';
+}, 50);
+</script>
+</body>
+</html>
