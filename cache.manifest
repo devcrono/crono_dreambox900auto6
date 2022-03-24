@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-# v5.5
+# v6
 
 css/main.css
 css/font.css
@@ -59,6 +59,7 @@ frontend.js
 ftp.bin
 goldhen_2.1.1.bin
 goldhen_2.1.2.bin
+goldhen_2.2.1.bin
 goldhen_2.2.bin
 history-blocker.bin
 index.html
